@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="courses.css" />
+    <title>Liste de Courses</title>
+  </head>
+  <body>
+    <div class="div2">
+      <h2>Liste de Courses</h2>
+      <input type="text" id="typedItems" placeholder="Ajouter vos produits" />
+      <select class="selectList">
+        <option value="fruits">Fruits et Légumes</option>
+        <option value="prot">Protéines</option>
+        <option value="produits">Produits Ménagers</option>
+        <option value="hygiene">Hygiène</option>
+        <option value="Selectionner" id="menu">Sélectionner</option>
+      </select>
+      <br />
+      <br />
+      <button id="addItem">Ajouter à votre liste</button>
+      <br />
+      <br />
+      <h3>Produits :</h3>
+      <div class="ul">
+        <ul id="listeItems"></ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="courses.js"></script>
+  </body>
+</html>
